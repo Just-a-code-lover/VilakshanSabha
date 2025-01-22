@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VilakshanSabha - Educational Discussion Platform</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100">
+    <!-- Development Banner -->
+    <div class="bg-indigo-600 text-white px-4 py-2 text-center animate__animated animate__fadeIn">
+        <p class="text-sm font-medium">🚧 Platform under active development - Coming Soon! 🚧</p>
+    </div>
+
+    <!-- Navigation and Hero Combined -->
+<div class="relative overflow-hidden bg-white">
+    <!-- Removed the old navigation -->
+    
+    <!-- Logo Section -->
+    <div class="relative w-full">
+        <!-- Logo as background with overlay text option 1 (text over image) -->
+        <div class="relative">
+            <img src="v2.png" alt="VilakshanSabha Logo" class="w-full object-cover" style="height: auto;">
+            
+            <!-- Overlay Text (positioned on right side of image) -->
+            <div class="absolute top-1/2 right-8 transform -translate-y-1/2 max-w-lg text-right">
+                <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                    <span class="block">Revolutionizing</span>
+                    <span class="block text-indigo-600">Educational Discussions</span>
+                </h1>
+                <p class="mt-3 text-base text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl">
+                    Join a vibrant community of learners and educators in meaningful discussions, resource sharing, and collaborative learning experiences.
+                </p>
+            </div>
+        </div>
+
+        <!-- Alternative: Text Below Image (uncomment this and remove the overlay text above if preferred) -->
+        <!--
+        <div class="text-center mt-8 px-4">
+            <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                <span class="block">Revolutionizing</span>
+                <span class="block text-indigo-600">Educational Discussions</span>
+            </h1>
+            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl">
+                Join a vibrant community of learners and educators in meaningful discussions, resource sharing, and collaborative learning experiences.
+            </p>
+        </div>
+        -->
+    </div>
+</div>
+
+    <!-- Features Section -->
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    Platform Features
+                </h2>
+                <p class="mt-4 text-xl text-gray-500">
+                    Designed to enhance your educational journey
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="flex flex-col items-center p-6 bg-gradient-to-br from-indigo-50 to-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="h-12 w-12 bg-indigo-600 text-white flex items-center justify-center rounded-full mb-4">
+                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Interactive Discussions</h3>
+                        <p class="text-gray-600 text-center">Engage in structured educational conversations with moderation and expert guidance.</p>
+                    </div>
+
+                    <div class="flex flex-col items-center p-6 bg-gradient-to-br from-indigo-50 to-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="h-12 w-12 bg-indigo-600 text-white flex items-center justify-center rounded-full mb-4">
+                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Resource Hub</h3>
+                        <p class="text-gray-600 text-center">Access and share curated educational materials and study resources.</p>
+                    </div>
+
+                    <div class="flex flex-col items-center p-6 bg-gradient-to-br from-indigo-50 to-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="h-12 w-12 bg-indigo-600 text-white flex items-center justify-center rounded-full mb-4">
+                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Expert Connect</h3>
+                        <p class="text-gray-600 text-center">Connect with subject matter experts and experienced educators.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Developer Section -->
+    <div class="py-12 bg-gradient-to-br from-indigo-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-12">
+                About the Developer
+            </h2>
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="p-8">
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-4">Recent Achievements</h3>
+                            <ul class="space-y-3">
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-indigo-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                    Winner – Software Development – National Science Day 2024
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-indigo-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                    Winner – Microsoft Learn Student Ambassador – Algorythms
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-indigo-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                    Special Mention at HackFest'24, IIT(ISM) Dhanbad
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-4">Professional Experience</h3>
+                            <div class="space-y-4">
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold">Software Engineering Intern at Surusha Technology Pvt Ltd</h4>
+                                    <p class="text-gray-600 mt-2">Developed AI-powered solutions and improved system efficiency</p>
+                                </div>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <h4 class="font-semibold">AI/ML Intern at NathCorp Inc. (Microsoft Gold Partner)</h4>
+                                    <p class="text-gray-600 mt-2">Implemented advanced AI solutions and optimized workflows</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center space-x-6">
+                            <a href="https://www.linkedin.com/in/avinash-dubey-cs/" class="text-gray-600 hover:text-indigo-600 transition-colors">
+                                <span class="sr-only">LinkedIn</span>
+                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Just-a-code-lover" class="text-gray-600 hover:text-indigo-600 transition-colors">
+                                <span class="sr-only">GitHub</span>
+                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Project Section -->
+<div class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-12">
+            Featured Project
+        </h2>
+        <div class="bg-gradient-to-br from-indigo-50 to-white rounded-2xl shadow-xl overflow-hidden">
+            <div class="p-8">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div class="flex-1 space-y-4">
+                        <h3 class="text-2xl font-bold text-indigo-600">Ghata - AI-Powered Website Generator</h3>
+                        <p class="text-gray-600">Transform natural language descriptions into production-ready websites using GPT-4 and advanced AI technologies. A revolutionary tool that bridges the gap between imagination and implementation.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center text-gray-600">
+                                <svg class="h-5 w-5 text-indigo-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                90% code generation accuracy
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <svg class="h-5 w-5 text-indigo-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                Reduces development time by 80%
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <svg class="h-5 w-5 text-indigo-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                Integrated with Flux Schnell for automated design
+                            </li>
+                        </ul>
+                        <div class="pt-4">
+                            <a href="https://ghata-ai-powered-website-generation-tool.streamlit.app/" 
+                               class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors">
+                                View Project
+                                <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full md:w-auto">
+                        <div class="bg-gradient-to-br from-indigo-100 to-white p-6 rounded-xl shadow-inner">
+                            <div class="aspect-w-16 aspect-h-9 bg-indigo-50 rounded-lg flex items-center justify-center">
+                                <svg class="h-24 w-24 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+        <div class="max-w-7xl mx-auto py-12 px-4
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center">
+                            <span class="text-white text-xs">VS</span>
+                        </div>
+                        <h3 class="text-white text-lg font-bold">VilakshanSabha</h3>
+                    </div>
+                    <p class="text-gray-400">Empowering educational discussions through innovative technology and community engagement.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors">About</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Just-a-code-lover/VilakshanSabha" class="text-gray-400 hover:text-white transition-colors">GitHub Repository</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Updates</h3>
+                    <p class="text-gray-400">Stay tuned for our launch! We're working hard to bring you the best educational discussion platform.</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="mt-8 pt-8 border-t border-gray-700">
+                <p class="text-center text-gray-400">
+                    © 2025 VilakshanSabha. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
